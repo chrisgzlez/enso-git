@@ -16,7 +16,7 @@ git add historia.txt && git commit -m "feat: added historia.txt to git"
 // crear tag annotated con la version R1
 git tag -a R1 -m "Version R1 of proyect"
 
---------------- Apartados 5,6,7 y 8 ---------------
+--------------- Apartados 5,6,7,8 y 9 ---------------
 
 // Creación de la rama Mejoras
 git checkout -b "Mejoras"
@@ -48,3 +48,21 @@ git commit -m "chore: delete mejoras v1 document"
 
 // Tag new version
 git tag -a R2 -m "Version R2 of proyect"
+
+
+
+--------------- Apartados 10, 11---------------
+// Añadir control de cambios v3
+git add procesos/control_de_cambios/DP_ControldeCambios.docx
+git commit -m "feat: update control de cambios to v3"
+
+// Undo previouse commit but keep changes
+// And then add plantillas
+git reset HEAD^
+git add procesos/control_de_cambios/DP_ControldeCambios.docx
+git add procesos/control_de_cambios/plantillas
+git commit -m "feat: update control de cambios y plantillas to v2"
+
+
+// Tag new version
+git tag -a R3 -m "Version R3 of proyect"
