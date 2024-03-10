@@ -67,3 +67,25 @@ git commit -m "feat: update control de cambios y plantillas to v2"
 
 // Tag new version
 git tag -a R3 -m "Version R3 of proyect"
+
+
+--------------- Apartados 12, 13, 14 y 15 ---------------
+
+// Añadir remote repo de github
+git remote add origin git@github.com:chrisgzlez/enso-git.git
+
+// Subir cambios a github
+git push -u origin main
+
+// Subir annotated tags
+git push --follow-tags
+
+// Traer cambios de la rama main de github
+git pull
+
+// Modificamos historia y chequeamos cambios vs head
+git diff
+
+// Añadimos cambios, y pusheamos
+git add historia.txt && git commit -m "feat: finish updating historia.txt"
+git push
