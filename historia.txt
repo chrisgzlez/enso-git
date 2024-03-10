@@ -83,8 +83,11 @@ git push --follow-tags
 // Traer cambios de la rama main de github
 git pull
 
-// Modificamos historia y chequeamos cambios vs head
+// Modificamos historia y chequeamos cambios (no commiteados) vs head
 git diff
+
+// Modificamos historia y chequeamos cambios locales vs remote
+git diff main origin/main
 
 // Añadimos cambios, y pusheamos
 git add historia.txt && git commit -m "feat: finish updating historia.txt"
