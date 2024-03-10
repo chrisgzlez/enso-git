@@ -1,4 +1,4 @@
-Apartados 1, 2 y 3
+Apartados 1, 2, 3 y 4
 // Una vez añadidos los archivos y creada la estructura de carpetas:
 
 // Añadir control de versiones v1 a git
