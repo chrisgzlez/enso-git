@@ -40,3 +40,11 @@ git commit -m "chore: update historia.txt with new commands"
 // Change to main branch and merge "Mejoras"
 git checkout main
 git merge Mejoras
+
+// Eliminar fichero de mejoras
+// (una vez eliminado del directorio)
+git add procesos/control_de_cambios/Mejoras_v1.pdf
+git commit -m "chore: delete mejoras v1 document"
+
+// Tag new version
+git tag -a R2 -m "Version R2 of proyect"
