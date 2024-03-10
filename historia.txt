@@ -1,4 +1,4 @@
-Apartados 1, 2, 3 y 4
+--------------- Apartados 1, 2, 3 y 4 ---------------
 // Una vez añadidos los archivos y creada la estructura de carpetas:
 
 // Añadir control de versiones v1 a git
@@ -15,3 +15,24 @@ git add historia.txt && git commit -m "feat: added historia.txt to git"
 
 // crear tag annotated con la version R1
 git tag -a R1 -m "Version R1 of proyect"
+
+--------------- Apartados 5,6,7 y 8 ---------------
+
+// Creación de la rama Mejoras
+git checkout -b "Mejoras"
+
+// Añadir fichero de mejoras con los comentarios sobre v1
+git add procesos/control_de_cambios/Mejoras_v1.pdf
+git commit -m "chore: added mejoras v1 pdf"
+
+// Añadir cambios en control de cambios
+git add procesos/control_de_cambios/DP_ControldeCambios.docx
+git commit -m "feat: updated control de cambios de v2"
+
+// Añadir cambios en plantillas de control de cambios
+git add procesos/control_de_cambios
+git commit -m "feat: updated plantillas a v2"
+
+// Añadir cambios en historia.txt
+git add historia.txt
+git commit -m "chore: update historia.txt with new commands"
