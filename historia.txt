@@ -1,0 +1,42 @@
+1.
+// Una vez añadidos los archivos y creada la estructura de carpetas:
+
+// Añadir control de versiones v1 a git
+git add procesos;
+git commit -m "feat: added control de cambios v1";
+
+// añadir la carpeta de proyectos con el documento Markdown del pry1
+git add proyectos;
+git commit -m "feat: added pry1 description"
+
+// (despues de escribir de actualizar este archivo)
+// añadir el documento historia.txt a git
+git add historia.txt && git commit -m "feat: added historia.txt to git"
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
