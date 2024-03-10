@@ -1,3 +1,7 @@
+Github Repo: https://github.com/chrisgzlez/enso-git
+Author: Cristian Novoa Gonzalez
+
+
 --------------- Apartados 1, 2, 3 y 4 ---------------
 // Una vez añadidos los archivos y creada la estructura de carpetas:
 
