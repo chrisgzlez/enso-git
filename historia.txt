@@ -40,6 +40,7 @@ git commit -m "chore: update historia.txt with new commands"
 // Change to main branch and merge "Mejoras"
 git checkout main
 git merge Mejoras
+git branch -d Mejoras
 
 // Eliminar fichero de mejoras
 // (una vez eliminado del directorio)
