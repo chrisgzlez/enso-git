@@ -36,3 +36,7 @@ git commit -m "feat: updated plantillas a v2"
 // Añadir cambios en historia.txt
 git add historia.txt
 git commit -m "chore: update historia.txt with new commands"
+
+// Change to main branch and merge "Mejoras"
+git checkout main
+git merge Mejoras
